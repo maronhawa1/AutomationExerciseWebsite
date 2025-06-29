@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllTests">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Login Tests">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Payment Tests">
+        <classes>
+            <class name="PaymentTest"/>
+        </classes>
+    </test>
+
+    <test name="Register User">
+        <classes>
+            <class name="RegisterTest"/>
+        </classes>
+    </test>
+    <test name="Delete Account Test">
+        <classes>
+            <class name="DeleteAccountTest"/>
+        </classes>
+    </test>
+    <test name="Checkout Without Login">
+        <classes>
+            <class name="CheckoutWithoutLoginTest"/>
+        </classes>
+    </test>
+</suite>

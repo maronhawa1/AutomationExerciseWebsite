@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Test the full flow from login to payment success message","11461","Full payment test flow with success","AllTests","Sun Jun 29 20:23:18 IDT 2025","passed","Sun Jun 29 20:23:30 IDT 2025","PaymentTest","Payment Tests","PaymentTest","testFullPaymentFlow"
+"Verify that user can login with valid credentials","4247","testValidLogin","AllTests","Sun Jun 29 20:23:12 IDT 2025","passed","Sun Jun 29 20:23:17 IDT 2025","LoginTest","Login Tests","LoginTest","testValidLogin"
+"","4994","testRegisterNewUser","AllTests","Sun Jun 29 20:23:32 IDT 2025","passed","Sun Jun 29 20:23:37 IDT 2025","RegisterTest","Register User","RegisterTest","testRegisterNewUser"
